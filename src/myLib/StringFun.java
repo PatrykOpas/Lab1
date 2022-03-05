@@ -25,4 +25,21 @@ public class StringFun {
         return new String(w2);
     }
 
+    public static String Camelize(String text) {
+        char[] w2 = text.toCharArray();
+        for(int i = 0; i < w2.length; i++){
+            if(i == 0 && Character.isUpperCase(w2[i])){
+                w2[i] = Character.toLowerCase(w2[i]);
+            }
+
+            if(w2[i] == ' ' && w2.length != i+1){
+                w2[i+1] = Character.toUpperCase(w2[i+1]);
+            }
+        }
+        String w2String = new String(w2);
+        w2String = w2String.replace(" ", ""); 
+        return w2String;
+    }
+
+
 }
