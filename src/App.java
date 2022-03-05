@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        IsPalindromeTest test1 = new IsPalindromeTest();
+        test1.main();
+
+        
     }
 }
