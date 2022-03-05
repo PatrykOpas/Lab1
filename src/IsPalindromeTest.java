@@ -13,9 +13,10 @@ public class IsPalindromeTest {
                 break;
             }
 
-            System.out.println("Tekst: " + tekst + " " + (StringFun.isPalindrome(tekst) ? "" : "nie ") + "jest palindromem");
+            System.out.println("Tekst: " + tekst + " " + (StringFun.IsPalindrome(tekst) ? "" : "nie ") + "jest palindromem");
             System.out.println(StringFun.Anarchize(tekst));
             System.out.println(StringFun.Camelize(tekst));
+            System.out.println(StringFun.Decamelize(tekst));
 
         } while (true);
     }
