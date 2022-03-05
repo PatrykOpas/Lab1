@@ -12,7 +12,7 @@ public class IsPalindromeTest {
             }
 
             System.out.print("Tekst: " + tekst + " " + (StringFun.isPalindrome(tekst) ? "" : "nie ") + "jest palindromem\n");
-
+            System.out.println(StringFun.Anarchize(tekst)+"\n");
 
         } while (true);
     }
