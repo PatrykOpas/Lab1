@@ -67,7 +67,7 @@ class StrongPasswordGenerator{
         return pass;
     }
 
-    public String chose(){
+    public String choice(){
         System.out.println("Wybierz wymogi hasla (0 - Wroc)");
         String[] wymogi = {"Pełny Wybor","Umiarkowany Wybor","Podstawowy Wybor"};
         for (int i = 0; i < wymogi.length; i++) {
@@ -258,7 +258,7 @@ public class App {
 
                 case "6":
                 do{
-                    String pass = new StrongPasswordGenerator().chose();
+                    String pass = new StrongPasswordGenerator().choice();
                     if(pass.equals("")) break;
                     System.out.println("\nTwoje haslo to: "+(pass)+"\n");
 
