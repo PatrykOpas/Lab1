@@ -17,6 +17,7 @@ public class IsPalindromeTest {
             System.out.println(StringFun.Anarchize(tekst));
             System.out.println(StringFun.Camelize(tekst));
             System.out.println(StringFun.Decamelize(tekst));
+            System.out.println(StringFun.Shuffle(tekst));
 
         } while (true);
     }
